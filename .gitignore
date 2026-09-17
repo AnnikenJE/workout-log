@@ -1,0 +1,13 @@
+# Claude is only used for questions with output setting on learning.
+.claude
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+.env.local
+
+# IDE (repo-rot)
+.idea/
+
