@@ -1,12 +1,13 @@
 <template>
-  <!-- Add workout -->
-  <v-dialog v-model="isopen">
+  <!-- TODO Add workout -->
+  <v-dialog v-model="isOpen">
     <v-card>
-      <v-card-title>Modal</v-card-title>
+      <v-card-title>Add workout</v-card-title>
 
-      <v-card-text></v-card-text>
+      <v-card-text>Text</v-card-text>
+
       <v-card-actions>
-        <v-btn @click="isopen = false">Close</v-btn>
+        <v-btn @click="isOpen = false">Close</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -15,6 +16,7 @@
 <script setup>
 import { ref } from "vue";
 
-const isopen = ref(false);
-defineExpose({ isopen });
+const isOpen = ref(false);
+
+defineExpose({ isOpen });
 </script>

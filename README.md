@@ -2,12 +2,24 @@
 
 > Work in progress
 
-Fullstack webapp. 
-Mostly for learning purposes, but maybe something useful some day.
+Local webapp for logging workouts.
 
-Planned stack: 
-* .NET / C# 
-* JavaScript /Vue / Vuetify
+### Stack
 
-* SQLite (?)
-* Docker (?)
+* Backend: .NET / C#, ASP.NET Core, Entity Framework Core, SQLite
+* Frontend: Vue 3, Vuetify
+
+### Running locally
+
+Backend:
+```bash
+cd backend
+dotnet run
+```
+
+Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
