@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>Dashboard</h1>
+    <h1>Workout</h1>
   </v-container>
 </template>
 
